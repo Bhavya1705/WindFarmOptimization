@@ -6,17 +6,9 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-   - name: checkout repo content
-     uses: actions/checkout@v2 # checkout the repository content to github runner.
-   - name: setup python
-     uses: actions/setup-python@v2
-     with:
-       python-version: 3.8 #install the python needed
-   - name: execute py script # run the run.py to get the latest data
-     run: |
-       python LearningPySwarms.py
-       pip install numpy,matplotlib,pyswarms,pandas
-     env:
-       key: ${{ secrets.key }} # if run.py requires passwords..etc, set it as secrets
-   - name: export index
-     .... # use crosponding script or actions to help export.
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+      with:
+       python-version: '3.7' # Version range or exact version of a Python version to use, using SemVer's version range syntax
+       architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
+    - run: python LearningPySwarms.py
