@@ -18,7 +18,7 @@ jobs:
         notebook: "LearningPySwarm.ipynb"
         #params: "PATHTOPARAMS.json"
         isReport: False
-        poll: True
+        #poll: True
     - uses: actions/upload-artifact@master
       if: always()
       with:
