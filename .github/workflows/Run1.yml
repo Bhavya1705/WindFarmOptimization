@@ -17,7 +17,7 @@ jobs:
       with:
         notebook: "LearnigPySwarm.ipynb"
         isReport: False
-        poll: True
+        #poll: True
     - uses: actions/upload-artifact@master
       if: always()
       with:
