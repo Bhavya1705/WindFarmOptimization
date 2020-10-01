@@ -7,6 +7,7 @@
 
 
 # Import modules
+!pip install numpy
 import numpy as np
 # Import PySwarms
 import pyswarms as ps
