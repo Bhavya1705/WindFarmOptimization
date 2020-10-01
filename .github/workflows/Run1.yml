@@ -1,7 +1,3 @@
-name: Python package
-
-on: [push]
-
 name: Execute notebook
 
 on: [push]
