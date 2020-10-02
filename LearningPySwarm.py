@@ -497,7 +497,7 @@ def getAEP(turb_coords):#turb_rad, turb_coords, power_curve, wind_inst_freq,
 # In[6]:
 
 
-turb_coords   =  getTurbLoc(r'Result1322.csv')
+turb_coords   =  getTurbLoc(r'Result1323.csv')
 t=np.transpose(turb_coords)
 len(t[0])
 tur=[]
@@ -560,7 +560,7 @@ coordinates
 
 import numpy
 a = coordinates 
-numpy.savetxt("Result1323.csv", a, delimiter=",")
+numpy.savetxt("Result1324.csv", a, delimiter=",")
 
 
 # In[ ]:
