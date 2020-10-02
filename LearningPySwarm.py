@@ -537,7 +537,7 @@ optimizer = ps.single.GlobalBestPSO(n_particles=50, dimensions=100, options=opti
 # In[11]:
 
 
-cost, pos = optimizer.optimize(getAEP, iters=50000)#,kwargs={})
+cost, pos = optimizer.optimize(getAEP, iters=5000)#,kwargs={})
 
 
 # In[12]:
