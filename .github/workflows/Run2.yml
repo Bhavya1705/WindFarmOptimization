@@ -19,7 +19,7 @@ jobs:
 #Filler
     
 
-    - name: Commit files
+    - name: Commit files to GitHub
 
       id: commit
 
