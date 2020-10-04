@@ -497,7 +497,7 @@ def getAEP(turb_coords):#turb_rad, turb_coords, power_curve, wind_inst_freq,
 # In[6]:
 
 
-turb_coords   =  getTurbLoc(r'Result1323.csv')
+turb_coords   =  getTurbLoc(r'Result1324.csv')
 t=np.transpose(turb_coords)
 len(t[0])
 tur=[]
@@ -527,7 +527,7 @@ bounds = (x_min, x_max)
 # In[10]:
 
 
-options = {'c1': 0.5, 'c2': 0.3, 'w':0.9}
+options = {'c1': 1, 'c2': 1, 'w':0.9}
 #turb_coords   =  getTurbLoc(r'turbine_loc_test.csv')
 optimizer = ps.single.GlobalBestPSO(n_particles=50, dimensions=100, options=options,bounds = (x_min, x_max),init_pos=np.asarray([caleb]*50))
 
@@ -560,7 +560,7 @@ coordinates
 
 import numpy
 a = coordinates 
-numpy.savetxt("Result1324.csv", a, delimiter=",")
+numpy.savetxt("GitResult1325.csv", a, delimiter=",")
 
 
 # In[ ]:
