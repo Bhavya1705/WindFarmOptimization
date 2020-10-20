@@ -36,7 +36,7 @@ With no more improvement from Particle Swarm, Scipy Optimizer was singularly run
     4. https://pygad.readthedocs.io/en/latest/
     5. https://pypi.org/project/geneticalgorithm/
     6. https://topfarm.pages.windenergy.dtu.dk/PyWake/notebooks/Quickstart.html
-    7. https://github.com/JuXinglong/WFLOP_SUGGA_Python)
+    7. https://github.com/JuXinglong/WFLOP_SUGGA_Python
 ###### Material that require Looking into
     1. https://github.com/byuflowlab/PlantEnergy
     2. https://github.com/sohailrreddy/WindFLO
