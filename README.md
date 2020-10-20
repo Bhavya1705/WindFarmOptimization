@@ -20,10 +20,8 @@ With no more improvement from Particle Swarm, Scipy Optimizer was singularly run
 ![Alt Text](https://github.com/Bhavya1705/WindFarmOptimization/blob/main/growth.png)</br>
 </br>
 ##### Fig.1. Change in Energy V/S CSV Files Created</br>
-</br>
 ![Alt Text](https://github.com/Bhavya1705/WindFarmOptimization/blob/main/11.png)</br>
 ![Alt Text](https://github.com/Bhavya1705/WindFarmOptimization/blob/main/21.png)</br>
-</br>
 ##### Fig.2. Visualization using Py-Wake</br>
 ![Alt Text](https://github.com/Bhavya1705/WindFarmOptimization/blob/main/placement.png)</br>
 ##### Fig.3. Placement of Tuebines</br>
