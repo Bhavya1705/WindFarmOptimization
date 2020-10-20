@@ -18,12 +18,15 @@ To solve the given problem, the given sample location file was used as starting 
 In initial stages of Optimization Particle Swarm was used to optimize the cost function with initail value set to Turbine_loc_test as initial value. With over ~50,000 iterations, the Average Energy Production improved from ~505 Gwh to ~520 Gwh. At this stage net increase in gain from Particle Swarm decreased, possible stagnation in local minima. To further optimize the cost function, A combination of Scipy Optimizer and Particle Swarm was used, with each taking the output of the other as initial value. This followed for over ~10,000 iterations with increase in Energy to ~530GWh. 
 With no more improvement from Particle Swarm, Scipy Optimizer was singularly run with over ~30,000 iterations, which increased Average Power from ~530GWh, to ~535GWh. No further progress was made using Scipy Optimizer. An increase of  ~1GWh was done using Hill Climb method in Mlrose library in python.</br>
 ![Alt Text](https://github.com/Bhavya1705/WindFarmOptimization/blob/main/growth.png)</br>
-Fig.1. Change in Energy V/S CSV Files Created</br>
+</br>
+##### Fig.1. Change in Energy V/S CSV Files Created</br>
+</br>
 ![Alt Text](https://github.com/Bhavya1705/WindFarmOptimization/blob/main/11.png)</br>
 ![Alt Text](https://github.com/Bhavya1705/WindFarmOptimization/blob/main/21.png)</br>
-Fig.2. Visualization using Py-Wake</br>
+</br>
+##### Fig.2. Visualization using Py-Wake</br>
 ![Alt Text](https://github.com/Bhavya1705/WindFarmOptimization/blob/main/placement.png)</br>
-Fig.3. Placement of Tuebines</br>
+##### Fig.3. Placement of Tuebines</br>
 #### Other Techniques used:
     • Wind farm layout optimization problem (WFLOP) SUGGA Python toolbox
       (https://github.com/JuXinglong/WFLOP_SUGGA_Python) -Allows for broad level Optimization, does not do changes locally.
