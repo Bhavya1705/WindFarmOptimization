@@ -22,7 +22,7 @@ With no more improvement from Particle Swarm, Scipy Optimizer was singularly run
 #### Fig.2. Visualization using Py-Wake</br>
 ![Alt Text](https://github.com/Bhavya1705/WindFarmOptimization/blob/main/11.png)</br>
 ![Alt Text](https://github.com/Bhavya1705/WindFarmOptimization/blob/main/21.png)</br>
-#### Fig.3. Placement of Tuebines</br>
+#### Fig.3. Placement of Turbines</br>
 ![Alt Text](https://github.com/Bhavya1705/WindFarmOptimization/blob/main/placement.png)</br>
 
 #### Other Techniques used:
